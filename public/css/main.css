@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 14px;
+    /*font-family: 'Open Sans', Arial , sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #363636;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:900;
+    margin:1em 0 0.5em;
+}
+
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+    margin:0.3em 0 0.5em;
+}
+img {
+    vertical-align:bottom;
+    max-width:100%;
+}
+
+/* global link */
+a:link,
+a:visited {
+    text-decoration:none;
+    color:#363636;
+    transition:0.1s all ease;
+}
+a:hover {
+    text-decoration:none;
+    color:#696969;
+}
+a:active {
+    color:#000;
+}
+
+/* header style */
+header {
+    background: url("../images/jaromir-kavan-362901.jpg") center center / cover fixed;
+}
+#mainNav .navbar-brand {
+    color: mediumpurple;
+    font-weight: bold;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#mainNav .navbar-nav .nav-item .nav-link:link,
+#mainNav .navbar-nav .nav-item .nav-link:visited {
+    color: #fff;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #696969;
+}
+
+#bottom_header {
+    padding: 10rem 0;
+}
+
+#bottom_header .button, #about .button, footer .button {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+    margin:20px 0;
+    /*text-transform: uppercase;*/
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+#bottom_header .button:hover, #about .button:hover, footer .button:hover {
+    background-color: #fff;
+    color: #363636;
+}
+
+/* products style */
+.products {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button-container .button, .cart-buttons .button {
+    border: 1px solid #363636;
+    color: #363636;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+    margin:20px 0;
+    /*text-transform: uppercase;*/
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.button-container .button:hover, .cart-buttons .button:hover {
+    color: #fff;
+    background: #363636;
+}
+
+/* featured section */
+.featured-section {
+    margin-bottom: 50px;
+}
+
+/* about */
+#about {
+    background: url("../images/michail-sapiton-234263.jpg") center center / cover;
+    padding: 100px 0;
+}
+#about .back {
+    background: rgba(0,0,0,0.5);
+    border-radius:2px;
+    padding:20px 40px;
+}
+
+/* footer */
+footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a:link,
+footer ul li a:visited {
+    color: white;
+}
+
+.social, .money {
+    margin: 0;
+    padding: 0;
+}
+.social li, .money li {
+    float: left;
+    margin-right: 10px;
+}
+
+/* breadcrumb */
+.breadcrumb a {
+    font-weight: 500;
+}
+
+/* products section */
+
+#product-section ul {
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+}
+#product-section ul li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+#product-section h3 {
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.sidebar {
+    padding: 1rem;
+}
+.sidebar li.active {
+    font-weight: 700;
+}
+.main h1 {
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #363636;
+}
+
+#like-prod {
+    background-color: #e9ecef;
+    padding-top: 5px;
+}
+#like-prod h5 {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #919191;
+}
+.price {
+    font-size: 38px;
+    color: #212121;
+    margin-bottom: 16px;
+}
+.prod-img {
+    padding: 5rem;
+}
+
+/* cart section */
+
+.cart-section {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.cart-button {
+    color: #363636;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+}
+.cart-button:hover {
+    color: #696969;
+}
+.table form {
+    margin: 5px;
+}
+.cart-totals {
+    background-color: #e9ecef;
+    padding: 10px 5px 10px 10px;
+}
+.cart-totals th, td {
+    padding: 5px;
+}
+.cart-buttons .checkout-button {
+    background-color: mediumpurple;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+    margin:20px 0;
+    /*text-transform: uppercase;*/
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.cart-buttons .checkout-button:hover, .checkout-section .checkout-button:hover, .contact .button:hover, .regist .button:hover, .login .button:hover, .login-admin .button:hover  {
+    opacity: 0.9;
+}
+.cart-count {
+    border-radius: 50%;
+    background-color: mediumpurple;
+    padding: 5px;
+}
+
+/* checkout section */
+.checkout-section h1 {
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #363636;
+}
+
+.checkout-section .checkout-button, .contact .button, .regist .button, .login .button , .login-admin .button, .profile .button{
+    background-color: mediumpurple;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+    margin:20px 0;
+    /*text-transform: uppercase;*/
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.checkout-section .qty {
+    border: 1px solid #363636;
+    padding: 5px;
+}
+
+/* contact section */
+#contact {
+    margin: 25px 0;
+}
+#contact p {
+    border-bottom:1px solid #ccc;
+    padding:10px 0;
+    font-size:1.4em;
+}
+#contact i {
+    width: 100px;
+}
+
+/* login and registration*/
+
+.regist {
+    margin-bottom: 118px;
+}
+.login {
+    margin-bottom: 239px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: mediumpurple;
+    color: #fff;
+}
+.dropdown-menu .dropdown-item .log a:hover {
+    color: #fff;
+}
+
+
+/*login admin */
+.login-admin {
+    width: 350px;
+    margin: 100px auto;
+}
+/* admin panel */
+.admin_header #mainNav {
+    background: #000;
+}
+.side_nav {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background: #000;
+}
+
+.side_nav .nav .nav-item .nav-link:link,
+.side_nav .nav .nav-item .nav-link:visited {
+    color: #fff;
+    text-transform: uppercase;
+}
+.side_nav .nav .nav-item .nav-link:hover {
+    color: #696969;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: mediumpurple;
+    color: #fff;
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+.admin_body {
+    padding-top: 3.5rem;
+}
+
+/* pagination */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+.pagination > li > a,
+.pagination > li > span {
+    line-height: 1.42857;
+    margin-left:2px;
+    padding: 8px 16px;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/* drop menu fo price */
+
+.drop_down {
+    position: relative;
+    display: inline-block;
+}
+
+.drop_down-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+.drop_down-content a {
+    color: #363636;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop_down-content a:hover {
+    background-color: #363636;
+    color: #fff;
+}
+
+.drop_down:hover .drop_down-content {
+    display: block;
+}
+
+/* checkout section with Stripe - stripe css */
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: red;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+#card-errors {
+    color: red;
+}
+
+
+/* thankyou */
+.thank-you-section {
+    margin: 200px auto;
+}
